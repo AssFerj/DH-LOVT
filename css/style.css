@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ropa Sans', sans-serif;
+}
+.container{
+    width: 1200px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header div h1{
+    margin-right: 0.5%;
+    color: #777777;
+}
+header div p{
+    color: #777777;
+}
+header img{
+    width: 2.5vw;
+}
