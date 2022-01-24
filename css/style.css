@@ -133,18 +133,52 @@ section.itens p{
 .cat2{
     text-align: center;
     width: 100%;
+    font-size: 130%;
     color: #ffffff;
     background: #555555;
 }
 .cat3{
     text-align: center;
     width: 100%;
+    font-size: 130%;
     color: #ffffff;
     background: #555555;
 }
 .cat4{
     text-align: center;
     width: 100%;
+    font-size: 130%;
     color: #ffffff;
     background: #555555;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333333;
+    margin-top: 5vh;
+}
+footer section{
+    width: 30%;
+}
+footer section img{
+    width: 100%;
+}
+.flex-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 0;
+}
+footer section.contact h3 p{
+    margin-top: 3%;
+}
+.contact{
+    color: #ffffff;
+}
+.social{
+    display: flex;
+}
+.social a img{
+    width: 130%;
 }
