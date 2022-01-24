@@ -42,7 +42,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3vh;
+    margin-top: 5vh;
 }
 main img{
   width: 100%;
@@ -64,4 +64,47 @@ main img{
     position: absolute;
     top: 33%;
     right: 19%;
+}
+.itens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.card{
+    width: 40%;
+    background: #EEEEEE;
+}
+.card img{
+    width: 100%;
+}
+.inner-card{
+    display: flex;
+    justify-content: space-between;   
+}
+.money{
+    font-size: 180%;
+}
+.new{
+    font-size: 150%;
+    color: #ffffff !important;
+    background: #51D275;
+    border-radius: 35%;
+    padding: 0.5% 5%;
+}
+.sale{
+    font-size: 150%;
+    color: #ffffff !important;
+    background: #DC9730;;
+    border-radius: 35%;
+    padding: 0.5% 5%;
+}
+.card-content{
+    display: flex;
+    justify-content: space-between;
+}
+section.itens p{
+    text-align: justify;
+    margin: 1.5% 3%;
+    color: #555555;
 }
