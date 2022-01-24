@@ -108,3 +108,43 @@ section.itens p{
     margin: 1.5% 3%;
     color: #555555;
 }
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.category-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+}
+.item-cat{
+    padding: 4%;
+    margin-top: 1%;
+}
+.cat1{
+    text-align: center;
+    color: #888888;
+    font-size: 150%;
+    width: 100%;
+}
+.cat2{
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    background: #555555;
+}
+.cat3{
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    background: #555555;
+}
+.cat4{
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    background: #555555;
+}
